@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 /*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
@@ -942,7 +939,7 @@ video {
 }
 
 .bg-\[url\(\'\.\/assets\/hero-bg\.jpg\'\)\] {
-  background-image: url("../assets/hero-bg.jpg");
+  background-image: url("./assets/hero-bg.jpg");
 }
 
 .bg-cover {
